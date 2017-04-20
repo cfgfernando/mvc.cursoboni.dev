@@ -1,6 +1,7 @@
 <?php
+session_start();
 require "config.php";
-define("BASE_URL", "http://mvc.cursoboni.dev");
+define("BASE_URL", "http://chat.dev");
 spl_autoload_register(function ($class){
 
     if(strpos($class, 'Controller') > -1 ) {

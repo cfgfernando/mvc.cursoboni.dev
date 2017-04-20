@@ -3,12 +3,13 @@
 
 class homeController extends controller{
 
-
+    public function __construct() {
+        parent::__construct();
+    }
 
     public function index(){
 
-      /* $fotos = new fotos();
-       $dados['fotos'] = $fotos->getFotos();*/
+
 
         $dados = array();
 
